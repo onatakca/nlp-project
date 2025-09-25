@@ -5,7 +5,7 @@ This project uses the [Genius Song Lyrics with Language Information](https://www
 ## Setup Instructions
 
 ### 1. Get Kaggle API Key
-1. Go to your [Kaggle account settings](https://www.kaggle.com/account).
+1. Go to your [Kaggle account settings](https://www.kaggle.com/).
 2. Under the **API** section, click **Create New Token**.
 3. This downloads a file called `kaggle.json`.
 
@@ -20,5 +20,4 @@ nlp-project/
 │── README.md
 
 
-### 3. Configure Kaggle API
-Soon...
+### 3. Run setup.ipynb to download files and libraries
