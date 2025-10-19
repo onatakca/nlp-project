@@ -68,7 +68,6 @@ temp/
 tmp/
 
 # Allow specific files
-!.gitignore
 !requirements.txt
 !README.md
 
