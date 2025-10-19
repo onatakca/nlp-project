@@ -1,0 +1,22 @@
+# Word2Vec + Logistic Regression Configuration
+
+model:
+  type: "word2vec"
+  classifier: "logistic"  # 'logistic' or 'svm'
+
+  # Word2Vec parameters
+  vector_size: 200
+  window: 5
+  min_count: 5
+  epochs: 10
+
+data:
+  samples_per_genre: 20000
+  test_size: 0.2
+  random_state: 42
+  use_cached: true
+
+experiment:
+  name: "word2vec_baseline"
+  description: "Word2Vec + Logistic Regression"
+  save_results: true
